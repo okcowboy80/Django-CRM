@@ -63,6 +63,7 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+load_dotenv()
 
 DATABASES = {
     'default': {
